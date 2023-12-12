@@ -1,0 +1,179 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+/*utility class*/
+.text-primary{
+  color: rgb(8, 192, 8);
+}
+/*navbar*/
+#navbar{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  z-index: 1;
+  padding: 1rem;
+}
+#navbar ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+#navbar ul li a{
+  color: #fff;
+  padding: .7rem;
+}
+#navbar ul li a:hover{
+  color: rgb(8, 192, 8);
+}
+#showcase{
+  background: url('../images/Home-img.jpg') center center/cover;
+  height: 90vh;
+  text-align: center;
+  padding-top: 240px;
+  color: #fff;
+  line-height: 2.4rem;
+  font-weight: 800;
+  opacity: .9;
+}
+#showcase a{
+  color: white;
+  background: rgb(97, 242, 97) ;
+  padding: .3rem;
+  font-weight: 800;
+}
+#what_container{
+  display: flex;
+  height: 150px;
+  padding: 0rem 6rem;
+}
+#invest{
+  display: flex;
+}
+#portfolio{
+  display: flex;
+}
+#invest{
+  display: flex;
+}
+#tax{
+  display: flex;
+}
+#what_we_do h2{
+  padding: 2.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+#what_container i{
+background-color:rgb(97, 242, 97) ;
+padding: 1.5rem;
+height: 13vh;
+border-radius: 50%;
+align-items: center;
+}
+#what_container .desc{
+  padding: 0rem 2rem;
+  font-weight: 530;
+}
+#what_container .desc h3{
+  padding-bottom: 1rem;
+  font-weight: 800;
+}
+/*
+#who_we_are img{
+  width: 50vw;
+  height: 50vh;
+}*/
+#who_we_are{
+  background: url(../images/who_img.jpg) center center/cover;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left;
+  height: 388px;
+  overflow: hidden;
+}
+#who_we_are #who_desc{
+  background: #333;
+  background-size: 100%;
+  float: right;
+  width: 50%;
+  padding-left: 2rem;
+  color: #fff;
+  line-height: 1.3rem;
+}
+#who_we_are h2{
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+#who_we_are h3{
+  padding: 1.6rem 0;
+}
+#who_we_are h4{
+  padding-bottom: 1.2rem;
+}
+#our_clients{
+  height: 210px;
+  overflow: hidden;
+
+}
+#items{
+  display: flex;
+  padding: 0rem 2rem;
+  justify-content: space-evenly;
+}
+#our_clients h3{
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 2.5rem;
+}
+#contact{
+  display: flex;
+  height: 420px;
+  background: rgb(145, 199, 7) ;
+  color: #fff;
+  padding: 1rem 1rem;
+}
+.contactus h3{
+  font-size: 2rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+.contactus p{
+  padding-bottom:.7rem ;
+  font-weight: 600;
+}
+.attr{
+  padding-bottom: .5rem;
+}
+.attr button{
+  background: black;
+  color: #fff;
+}
+input{
+  height: 30px;
+  width: 300px;
+}
+textarea{
+  width: 300px;
+}
+button{
+  width: 300px;
+  padding: .6rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+footer{
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+

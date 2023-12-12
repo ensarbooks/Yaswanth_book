@@ -1,0 +1,9 @@
+.block{
+  width: 450px;
+  color: white;
+}
+p{
+  background-color: rgb(144, 28, 28);
+  margin-bottom: 1rem;
+  padding: .5rem 1.5rem;
+}

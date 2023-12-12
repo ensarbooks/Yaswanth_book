@@ -1,0 +1,17 @@
+body,html{
+  background-color: #555;
+}
+body,p,h1{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.jokes{
+  margin: 10rem;
+  color: white;
+  text-align: center;
+
+}
+h1{
+  margin-bottom: 2rem;
+}

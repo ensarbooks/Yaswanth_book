@@ -1,0 +1,12 @@
+input{
+  display: block;
+  width: 370px;
+  height: 24px;
+  margin: .7rem 0;
+}
+ 
+button{
+  padding: .3rem .6rem;
+  background-color: rgb(144, 28, 28);
+  color: white;
+}
